@@ -125,7 +125,8 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width:600px;
-    margin
+    margin-top: -50px;
+    margin-bottom: 50px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -137,6 +138,8 @@ aside{
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width:200px;
+    margin-top: -50px;
+    margin-bottom: 50px;
 
     /*
         TODO:
