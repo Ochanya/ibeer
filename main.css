@@ -104,8 +104,8 @@ width:100%;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
-    justify-content: space-around;
-
+    justify-content: center;
+    flex:1;
 
         TODO:
         - Flexbox - Create general spacing between nav links
@@ -113,7 +113,7 @@ width:100%;
 }
 #main-navigation #logo{
     margin-right: 400px;
-
+    flex:3;
     /*
         TODO:
         - Flexbox - The logo needs to take up more space
@@ -163,6 +163,9 @@ article{
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     padding: 20px;
     margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+
 }
 article h2{
     line-height: 1em;
@@ -172,6 +175,7 @@ article h2{
     padding: 0 0 10px 0;
     border-bottom: 1px solid #ccc;
     text-transform: uppercase;
+    flex:1;
 }
 article time{
     font-size: 0.8em;
@@ -183,6 +187,7 @@ article time{
 article img{
   float:right;
   width:50%;
+  flex:3;
     /*
         TODO:
         - Float article images to the right
@@ -190,7 +195,9 @@ article img{
     */
 }
 article footer p{
-
+  flex:1;
+  border-top: 1px solid lightgrey;
+  text-align: center;
 
     /*
         TODO:
